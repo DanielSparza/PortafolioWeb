@@ -1,0 +1,200 @@
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #b1a7a6;
+}
+
+.navbar{
+    background-color: transparent;
+    color: #fff;
+    transition: all 1s ease;
+}
+
+.navbar-scroll{
+    background-color: #455A64;
+    /*opacity: 60%;*/
+    color: #fff;
+}
+
+.navbar-brand{
+    margin-top: 7px;
+    margin-left: 130px;
+}
+
+.navbar-brand img{
+    height: 50px;
+    width: 50px;
+}
+
+.menu{
+    margin-top: 10px;
+    display: flex;
+    width: 90%;
+    /*justify-content: space-around;*/
+    justify-content: end;
+}
+
+.menu li{
+    list-style: none;
+}
+
+.menu a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu .active{
+    color: #b1a7a6;
+}
+
+.menu a:hover{
+    color: #FF3D00;
+    transition: ease-in .3s;
+}
+
+.AcercaDeMi{
+    padding-top: 150px;
+    padding-bottom: 80px;
+    text-align: center;
+    align-items: center;
+    background-color: #161a1d;
+    color: #fff;
+}
+
+.AcercaDeMi .row{
+    height: auto;
+}
+
+.AcercaDeMi img{
+    height: 250px;
+    width: 250px;
+}
+
+.AcercaDeMi #imagen h1{
+    color: #FF0000;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+}
+
+#presentacion{
+    font-size: 20px;
+}
+
+.info-content {
+    text-align: center;
+}
+
+h1{
+    font-size: 3em;
+}
+
+h1 span{
+    color: #FF3D00;
+}
+
+.descargar-cv{
+    padding: 2px 20px;
+    background-color: #455A64;
+    border: none;
+    border-radius: 15px;
+    margin-top: 5px;
+    color: #fff;
+    box-shadow: none;
+}
+
+.descargar-cv:hover{
+    background-color: #FF3D00;
+    box-shadow: 1px 3px 11px -5px #fff;
+}
+
+.MiTrabajo{
+    margin-bottom: 80px;
+}
+
+.MiTrabajo h2{
+    color: #fff;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+.MiTrabajo h4{
+    text-align: center;
+    color: #161a1d;
+}
+
+.migithub{
+    height: 30px;
+    width: 30px;
+}
+
+.card{
+    border-radius: 10px;
+}
+
+.card img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card:hover{
+    box-shadow: 1px 3px 11px -3px #161a1d;
+    border: 20px #161a1d;
+}
+
+.card p{
+    text-align: justify;
+}
+
+.Habilidades{
+    text-align: center;
+    background-color: #161a1d;
+    color: #fff;
+}
+
+.Habilidades h2{
+    color: #fff;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    padding-top: 80px;
+}
+
+.Habilidades img{
+    height: 80px;
+    width: 80px;
+}
+
+.Habilidades .row{
+    margin-bottom: 50px;
+}
+
+.Contacto{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 50px;
+
+}
+
+.Contacto h2{
+    color: #fff;
+    text-align: center;
+}
+
+.Contacto img{
+    height: 50px;
+    width: 50px;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    background-color: #455A64;
+    color: #fff;
+    height: 60px;
+}
+
+.footer h6{
+    color: #fff;
+    text-align: center;
+}
+

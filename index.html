@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="icon" href="imagenes/Logo.ico">
+    <title>Portfolio Daniel Esparza</title>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#cabecera" data-bs-offset="0" >
+  
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="cabecera">
+        <div class="container-fluid">
+          <a class="navbar-brand">
+              <img src="imagenes/Logo.png" alt="logo de Daniel Esparza">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#barraNavegacion" aria-controls="barraNavegacion" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="barraNavegacion">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 menu" id="menu">
+              <li class="nav-item">
+                <a class="nav-link" href="#AcercaDeMi">Acerca de mi</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#MiTrabajo">Mi trabajo</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Habilidades">Habilidades</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Contacto">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <section id="AcercaDeMi">
+        <div class="AcercaDeMi">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-6 col-md-6 col-sm-12">
+                        <div id="imagen">
+                            <img src="imagenes/io.png" alt="Daniel Esparza foto">
+                            <h1>Daniel <span>Esparza</span></h1>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 col-md-6 col-sm-12">
+                        <div class="info-content">
+                            <br>
+                            <h2>ACERCA DE MI</h2>
+                            <p id="presentacion">Soy un desarrollador de software full stack con conocimiento en diseño gráfico.</p>
+                            <p>Estudiante del Instituto Tecnológico José Mario Molina Pasquel y Henríquez Campus Lagos de Moreno, Jalisco, México 
+                                de la carrera de Ingeniería en Sistemas Computacionales.</p>
+                            <a download href="">
+                                <button class="descargar-cv">RESUME</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="MiTrabajo">
+        <div class="MiTrabajo">
+            <h2>MI TRABAJO</h2>
+            <div class="container">
+                <div class="row row-cols-1 row-cols-md-2 g-4">
+                    <div class="col">
+                      <div class="card text-center">
+                        <img src="imagenes/TacosDonAlfredWeb.jpg" class="card-img-top" alt="imagen de interfaz web tacos Don Alfred">
+                        <div class="card-body">
+                          <h4 class="card-title">Tacos "Don Alfred"</h4>
+                          <p class="card-text">Es una aplicación para un restaurante de comida desarrollada en dos partes, la primera fue desarrollada como aplicación de escritorio en c# de acceso solamente
+                                para el administrador y la segunda fue desarrollada como aplicación web utilizando el framework de laravel.
+                          </p>
+                          <a href="https://github.com/DanielSparza" target="_blank">
+                              <img class="migithub" src="iconos/github.png" alt="icono de github">
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card text-center">
+                        <img src="imagenes/AbSandra.jpg" class="card-img-top" alt="Imagen de interfaz Abarrotes Sandra">
+                        <div class="card-body">
+                          <h4 class="card-title">Abarrotes Sandra</h4>
+                          <p class="card-text">Es una aplicación de escritorio desarrollada en c# para un negocio de abarrotes local, cuenta modulo de venta al publico, compras de productos a proveedores,
+                              registro de usuarios y proveedores, modulo de estadisticas mediante graficas y un modulo para administrar los turnos de trabajo de los empleados.
+                          </p>
+                          <a href="https://github.com/DanielSparza" target="_blank">
+                            <img class="migithub" src="iconos/github.png" alt="icono de github">
+                         </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card text-center">
+                        <img src="imagenes/AutosTec.jpg" class="card-img-top" alt="Imagen de interfaz AutosTec">
+                        <div class="card-body">
+                          <h4 class="card-title">Autos Tec</h4>
+                          <p class="card-text">Es una aplicación web desarrollada para el Instituto Tecnológico José Mario Molina Pasquel y Henríquez campus Lagos de Moreno a trevés
+                              de un equipo de celula de desarrollo para permitir registrar las salidas y entradas de vehiculos de la institución asi como poder programar el mantenimiento de los mismos.
+                          </p>
+                          <a href="https://github.com/DanielSparza" target="_blank">
+                            <img class="migithub" src="iconos/github.png" alt="icono de github">
+                         </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card text-center">
+                        <img src="imagenes/tecnoeduca.jpg" class="card-img-top" alt="Imagen de interfaz TecnoEduca">
+                        <div class="card-body">
+                          <h4 class="card-title">TecnoEduca</h4>
+                          <p class="card-text">Es un ejemplo de página web para una escuela de cursos online desarrollada solo con html, css, javascript y utilizando el framework bootstrap,
+                              cuenta con un formulario de contacto para la postulación de profesores e implementa el uso de modales.</p>
+                          <a href="https://github.com/DanielSparza" target="_blank">
+                            <img class="migithub" src="iconos/github.png" alt="icono de github">
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                        <div class="card text-center">
+                          <img src="imagenes/minecraft.jpg" class="card-img-top" alt="Imagen de interfaz pagina informativa de minecraft">
+                          <div class="card-body">
+                            <h4 class="card-title">Página informativa de Minecraft</h4>
+                            <p class="card-text">Es una página web informativa acerca de las novedades del videojuego Minecraft, cuenta un apartado de foro donde se permite el registro y login de los
+                                 usuarios para que puedan hacer publicaciones en el. Fue desarrollada con el framework laravel.
+                            </p>
+                            <a href="https://github.com/DanielSparza" target="_blank">
+                              <img class="migithub" src="iconos/github.png" alt="icono de github">
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="card text-center">
+                          <img src="imagenes/compilador.jpg" class="card-img-top" alt="Imagen de interfaz juego del laberinto">
+                          <div class="card-body">
+                            <h4 class="card-title">Compilador</h4>
+                            <p class="card-text">Es un compilador que permite controlar un brazo robótico con cuatro grados de libertad, desarrollado en c#. Cuenta con un analizador léxico, sintáctico,
+                                 semántico y un traductor el cual traduce las instrucciones para mover el brazo robótico al lenguaje c y asi pueda ser interpretado por una placa controladora arduino.
+                            </p>
+                            <a href="https://github.com/DanielSparza" target="_blank">
+                              <img class="migithub" src="iconos/github.png" alt="icono de github">
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="Habilidades">
+        <div class="Habilidades">
+            <h2>HABILIDADES</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-3 col-md-6 col-sm-12">
+                        <img src="iconos/html5.png" alt="icono de HTML">
+                        <h3>HTML 5</h3>
+                    </div>
+                    <div class="col-12 col-lg-3 col-md-6 col-sm-12">
+                        <img src="iconos/css3.png" alt="icono de CSS">
+                        <h3>CSS</h3>
+                    </div>
+                    <div class="col-12 col-lg-3 col-md-6 col-sm-12">
+                        <img src="iconos/javascript.png" alt="icono de JvaScript">
+                        <h3>JavaScript</h3>
+                    </div>
+                    <div class="col-12 col-lg-3 col-md-6 col-sm-12">
+                        <img src="iconos/csharp.png" alt="icono de C#">
+                        <h3>C#</h3>
+                    </div>
+                </div>
+    
+                <div class="row">
+                    <div class="col-12 col-lg-3 col-md-6 col-sm-12">
+                        <img src="iconos/git.png" alt="icono de Git">
+                        <h3>Git</h3>
+                    </div>
+                    <div class="col-12 col-lg-3 col-md-6 col-sm-12">
+                        <img src="iconos/laravel.png" alt="icono de Laravel">
+                        <h3>Laravel</h3>
+                    </div>
+                    <div class="col-12 col-lg-3 col-md-6 col-sm-12">
+                        <img src="iconos/mysql.png" alt="">
+                        <h3>MySql</h3>
+                    </div>
+                    <div class="col-12 col-lg-3 col-md-6 col-sm-12">
+                        <img src="iconos/database.png" alt="icono de SQL Server">
+                        <h3>SQL Server</h3>
+                    </div>
+                </div>
+    
+                <div class="row">
+                    <div class="col-12 col-lg-3 col-md-6 col-sm-12">
+                        <img src="iconos/illustrator.png" alt="icono de Illustrator">
+                        <h3>Illustrator</h3>
+                    </div>
+                    <div class="col-12 col-lg-3 col-md-6 col-sm-12">
+                        <img src="iconos/azure.png" alt="icono de Azure">
+                        <h3>Azure</h3>
+                    </div>
+                    <div class="col-12 col-lg-3 col-md-6 col-sm-12">
+                        <img src="iconos/net.png" alt="icono de .NET">
+                        <h3>.NET</h3>
+                    </div>
+                    <div class="col-12 col-lg-3 col-md-6 col-sm-12">
+                        <img src="iconos/trello.png" alt="icono de Trello">
+                        <h3>Trello</h3>
+                    </div>
+                </div>
+                <br><br><br>
+            </div>
+        </div>
+    </section>
+    
+    <section id="Contacto">
+        <div class="Contacto">
+            <h2>CONTACTO</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-4 col-md-4 col-sm-12">
+                        <a href="https://www.linkedin.com/in/daniel-esparza-diaz" target="_blank">
+                            <img src="iconos/linkedin.png" alt="logo de linkedin">
+                        </a>
+                    </div>
+                    <div class="col-12 col-lg-4 col-md-4 col-sm-12">
+                        <a href="https://github.com/DanielSparza" target="_blank">
+                            <img src="iconos/github.png" alt="logo de github">
+                        </a>
+                    </div>
+                    <div class="col-12 col-lg-4 col-md-4 col-sm-12">
+                        <a href="mailto:danielesparzza@gmail.com" target="_blank">
+                            <img src="iconos/gmail.png" alt="logo de gmail">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <h6>Copyright 2022  |  Daniel Esparza</h6>
+        </div>
+    </footer> 
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+</html>
