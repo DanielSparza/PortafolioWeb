@@ -127,6 +127,12 @@ h1 span{
     width: 30px;
 }
 
+.webtest{
+    padding-left: 10px;
+    height: 36px;
+    width: 40px;
+}
+
 .card{
     border-radius: 10px;
 }
